@@ -8,10 +8,10 @@ fi
 mkdir -p ~/.TRASH
 
 if [ -f ~/.vimrc ];then
-	mv ~/.vimrc ~/.bup_vimrc
+i	mv ~/.vimrc ~/.bup_vimrc
 	echo ".vimrc changed to .bup_vimrc" >> linuxsetup.log
 fi
 
-./etc/vimrc > ~/.vimrc
+cat ./etc/vimrc > ~/.vimrc
 
 echo "source ~/.dotfiles/etc/bashrc_custom" >> ~/.bashrc
