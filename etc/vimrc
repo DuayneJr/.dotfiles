@@ -1,6 +1,6 @@
-echo "syntax on"
-echo "set number"
-echo "set ruler"
-echo "color elflord"
-echo "set autoindent"
-echo "autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0"
+syntax on
+set number
+set ruler
+color elflord
+set autoindent
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
