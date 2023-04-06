@@ -8,7 +8,7 @@ fi
 mkdir -p ~/.TRASH
 
 if [ -f ~/.vimrc ];then
-i	mv ~/.vimrc ~/.bup_vimrc
+	mv ~/.vimrc ~/.bup_vimrc
 	echo ".vimrc changed to .bup_vimrc" >> linuxsetup.log
 fi
 
